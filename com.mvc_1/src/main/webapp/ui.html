@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+
+<style>
+form{
+
+background-color:lime;
+
+
+
+
+}
+
+
+</style>
+<body>
+</br>
+</br>
+<center>
+<form action="servlet_1" method="POST">
+
+ENTER name :<input type ="text" name= name></br></br>
+ENTER user_name :<input type ="text" name=user_name required="true"></br></br>
+
+ENTER email :<input type ="email" name=email  required="true" ></br></br>
+ENTER password :<input type ="password" name= password required="true"  ></br></br>
+
+ENTER contact :<input type ="text" name= contact min="10" maxlength="10"></br></br>
+
+SELECT gender:</br>
+<input type="radio" id="male" name="gender" value="MALE">
+  <label for="MALE">MALE</label><br>
+
+<input type="radio" id="female" name="gender" value="FEMALE">
+  <label for="FEMALE">FEMALE</label><br>
+
+<input type="radio" id="others" name="gender" value="OTHERS">
+  <label for="OTHERS">OTHERS</label><br><br>
+
+SELECT lang:</br>
+
+ <input type="checkbox"  name="lang" value="TELUGU">
+  <label for="lang"> TELUGU</label><br>
+
+ <input type="checkbox"  name="lang" value="ENGLISH">
+  <label for="lang"> ENGLISH</label><br>
+
+ <input type="checkbox"  name="lang" value="HINDI">
+  <label for="lang"> HINDI</label><br>
+
+ <input type="checkbox"  name="lang" value="TAMIL">
+  <label for="lang"> TAMIL</label><br><br><br>
+
+
+
+
+<label for="location">SELECT location:</label>
+
+<select id="location">
+  <option value="A.P">A.P</option>
+  <option value="M.P">M.P</option>
+  <option value="HYD">HYD</option>
+  <option value="U.P">U.P</option>
+   <option value="DELHI">DELHI</option>
+  <option value="PUNE">PUNE</option>
+  <option value="CHENNAI">CHENNAI</option>
+  <option value="GOA">GOA</option>
+  
+</select></br></br>
+  
+  <label for="file">SELECT file:</label>
+  <input type="file"  name="fle" ><br><br>
+
+ 
+ 
+ 
+  <input type="submit" value="SUBMIT"></br><hr>
+  
+
+<input type="RESET" value="CLEAR">
+
+
+</form>
+
+</center>
+</body>
+</html>

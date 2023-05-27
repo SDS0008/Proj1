@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>com.mvc_1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  
+  <servlet-name>servlet_1</servlet-name>
+  <servlet-class>servlet_1</servlet-class>
+  
+  
+   </servlet>
+   
+   <servlet-mapping>
+   
+   <servlet-name>servlet_1</servlet-name>
+   <url-pattern>/servlet_1</url-pattern>
+   
+   
+   </servlet-mapping>
+   
+   
+   
+   
+   
+   
+   
+   <servlet>
+  
+  <servlet-name>servlet_2</servlet-name>
+  <servlet-class>servlet_2</servlet-class>
+  
+  
+   </servlet>
+   
+   <servlet-mapping>
+   
+   <servlet-name>servlet_2</servlet-name>
+   <url-pattern>/servlet_2</url-pattern>
+   
+   
+   </servlet-mapping>
+   
+   
+    <servlet>
+  
+  <servlet-name>servlet_3</servlet-name>
+  <servlet-class>servlet_3</servlet-class>
+  
+  
+   </servlet>
+   
+   <servlet-mapping>
+   
+   <servlet-name>servlet_3</servlet-name>
+   <url-pattern>/servlet_3</url-pattern>
+   
+   
+   </servlet-mapping>
+   
+   
+     <servlet>
+  
+  <servlet-name>servlet_4</servlet-name>
+  <servlet-class>servlet_4</servlet-class>
+  
+  
+   </servlet>
+   
+   <servlet-mapping>
+   
+   <servlet-name>servlet_4</servlet-name>
+   <url-pattern>/servlet_4</url-pattern>
+   
+   
+   </servlet-mapping>
+   
+     <servlet>
+  
+  <servlet-name>servlet_5</servlet-name>
+  <servlet-class>servlet_5</servlet-class>
+  
+  
+   </servlet>
+   
+   <servlet-mapping>
+   
+   <servlet-name>servlet_5</servlet-name>
+   <url-pattern>/servlet_5</url-pattern>
+   
+   
+   </servlet-mapping>
+   
+  
+  
+    <servlet>
+  
+  <servlet-name>LogoutSer</servlet-name>
+  <servlet-class>LogoutSer</servlet-class>
+  
+  
+   </servlet>
+   
+   <servlet-mapping>
+   
+   <servlet-name>LogoutSer</servlet-name>
+   <url-pattern>/LogoutSer</url-pattern>
+   
+   
+   </servlet-mapping>
+   
+   
+  
+</web-app>
